@@ -1,12 +1,12 @@
 # Digital Signal Processing Filters and Effects in MATLAB
 
-### Author
-
-Andrei Divinagracia - 301360608
+**Author:** Andrei Divinagracia - 301360608
 
 MATLAB DAW is a project for MSE491, Summer 2022, Digital Signal Processing developed by
 Andrei Divinagracia (std# 301360608). It contains analog and digital filter desings in
 MATLAB which can be applied to Stereo and Mono .wav inputs.
+
+[![DSP-project-demo](https://markdown-videos-api.jorgenkh.no/url?url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3Di7h6ZNrQGYQ%26ab_channel%3DAtodo)](https://www.youtube.com/watch?v=i7h6ZNrQGYQ&ab_channel=Atodo)
 
 ## Installation
 
