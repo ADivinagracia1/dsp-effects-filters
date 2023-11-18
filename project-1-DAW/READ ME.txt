@@ -1,0 +1,33 @@
+# Author
+
+Andrei Divinagracia (only)
+301360608
+
+# MSE 491 - DSP: Project 1 - MATLAB DAW
+
+MATLAB DAW is a project for MSE491, Summer 2022, Digital Signal Processing developed by
+Andrei Divinagracia (std# 301360608). It contains simple audio signal effects that is 
+found in a Digital Audio Workstation for Stereo and Mono .wav inputs.
+
+## Installation
+
+Unzip the project_1_submission.zip containing: DSP_project_1.mlapp, README.txt, 
+reverbIR.wav, and sample audio snippets.
+
+## Usage
+
+1. The user is able to input a stereo or mono audio input file and the GUI app will
+function properly
+
+2. Each audio effect can be stacked on top of another. The user is able to specify
+which audio effects they want to apply to their audio file by use of checkboxes. 
+The user has freedom to select any and all audio effects they desire. The original 
+audio will play when first loaded and its graph will always be visible in the GUI. 
+The altered effect is also visible on a plot in the GUI and will be played once appleid.
+(Note: Panning does not work when you want Reverb in your signal)
+
+3. The user has freedom to alter all the relevant parameters of an effect using sliders
+and knobs. An effect can be undo-d by deselecting the checkbox of the effect. That way, 
+the user can undo any effect applied in addition to the last effect. 
+
+4. The user is able to save the new file into a .wav into their computer

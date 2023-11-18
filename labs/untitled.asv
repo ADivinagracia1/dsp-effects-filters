@@ -1,0 +1,23 @@
+clc 
+clear
+close all
+
+n = 0:1:10e3; % set of samples
+f = 3; % Hz (message freq)
+k = 3;
+N = 1/k;
+Fs = 30; % Hz (sampling freq) --> Change this to see a BETTER xn read signal
+Ts = 1/Fs;
+Fs1 
+
+% xn = cos(2*pi*k*n/N)
+xn_1 = cos (2*pi*f*n*Ts)  
+xn_1 = cos (2*pi*f*n*Ts)  
+xn_1 = cos (2*pi*f*n*Ts)  
+
+plot(n/Fs, xn, 'o-') % o- shows the sample points
+hold on
+stem(n/Fs, xn) 
+xlim([0 1])
+xlabel('Time (s)')
+ylabel('x[n]')
